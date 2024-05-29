@@ -6,10 +6,13 @@
 
 1.1 Clone this repository
 ```bash
-git clone <URL>
+git clone git@github.com:432HzQuant/Liquidity_Provider.git
 ```
-
-1.2 Install the required libraries
+1.2 Pull the `feature/bitget-sdk` branch into your local repository
+```bash
+git checkout -b feature/bitget-sdk origin/feature/bitget-sdk
+```
+1.3 Install the required libraries
 ```bash
 pip install -r requirements.txt
 ```
