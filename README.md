@@ -1,6 +1,6 @@
-### Python Version Suggestion
+### Environment
 
-`python version：3.6+`
+`Python version: 3.6+`
 
 #### Step 1: Download the repository and install the required libraries
 
