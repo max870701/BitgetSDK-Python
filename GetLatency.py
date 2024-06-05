@@ -91,7 +91,7 @@ if __name__ == '__main__':
     run_times = 10
 
     for i in range(run_times):
-        logger.info(f"---- Run {i} times ----")
+        logger.info(f"---- Run {i+1} times ----")
         call_api_with_latency(
             test_latency_instance=test_latency_instance,
             symbol="DOGEUSDT",
