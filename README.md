@@ -1,32 +1,27 @@
 ### Environment
 
-`Python version: 3.6+`
+Python version: `3.6+`
 
 #### Step 1: Download the repository and install the required libraries
 
 1.1 Clone this repository
-```bash
-git clone git@github.com:432HzQuant/Liquidity_Provider.git
-```
-1.2 Pull the `feature/bitget-sdk` branch into your local repository
-```bash
-git checkout -b feature/bitget-sdk origin/feature/bitget-sdk
-```
-1.3 Install the required libraries
-```bash
-pip install -r requirements.txt
-```
+
+    git clone git@github.com:${GITHUB_REPO_URL}
+
+1.2 Install the required libraries
+
+    pip install -r requirements.txt
+
 
 #### Step 2：Configure Bitget Account
 
 2.1 [Apply an API Key](https://www.bitget.com/zh-CN/account/newapi)
 
 2.2 Fill out the API Key, Secret Key, Passphrase in the `.env` file
-```text
-BITGET_API_KEY=API_KEY
-BITGET_SECRET=SECRET_KEY
-BITGET_PASSPHRASE=PASSPHRASE
-```
+
+    BITGET_API_KEY=API_KEY
+    BITGET_SECRET=SECRET_KEY
+    BITGET_PASSPHRASE=PASSPHRASE
 
 #### Step 3: Invoke Interfaces
 
